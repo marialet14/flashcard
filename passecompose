@@ -21,9 +21,9 @@ while cont == 0:
     resposta = input(f"Qual é o passé composé de '{verb}'? ").strip().lower()
 
     if resposta == "sair":
-        print("À la prochaine! ")
+        print("À la prochaine!")
         cont += 1
     elif resposta == verbs[verb].lower():
-        print("Très bien !\n")
+        print("Très bien!")
     else:
-        print(f"Pas encore ! A resposta correta é: '{verbs[verb]}'.\n")
+        print(f"Pas encore! A resposta correta é: '{verbs[verb]}'.")
