@@ -2,7 +2,7 @@ import random
 
 verbs = {
     "manger": "j'ai mangé",       #comer
-    "aller": "je suis allé(e)",   #ir
+    "aller": "je suis allé",      #ir
     "finir": "j'ai fini",         #terminar
     "prendre": "j'ai pris",       #pegar
     "venir": "je suis venu(e)",   #vir
@@ -16,7 +16,7 @@ verbs = {
 print("Flashcards de Verbos Franceses (Infinitif - Passé Composé)")
 print("Digite 'sair' para encerrar o jogo.\n")
 cont = 0
-while cont = 0:
+while cont == 0:
     verb = random.choice(list(verbs.keys()))
     resposta = input(f"Qual é o passé composé de '{verb}'? ").strip().lower()
 
